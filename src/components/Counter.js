@@ -1,6 +1,4 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { decrease, increase, setDiff } from "../modules/counter";
 
 export default function Counter({
   number,
